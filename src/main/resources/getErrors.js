@@ -11,7 +11,7 @@ function getErrors(input, filename) {
         }
         return JSHINT.errors.length;
     } else {
-        print('no errors found in ' + filename + '\n')
+        //print('no errors found in ' + filename + '\n')
     }
     return 0;
 };
