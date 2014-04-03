@@ -20,7 +20,7 @@ object SbtJshintPlugin extends Plugin {
   def jshintTask = (jshintOptions, jshintFiles, jshintMercy, streams) map { (optFiles, testFiles, mercy, s) =>
 
     testFiles.foreach { files =>
-      s.log.info("running jshint...")
+      //s.log.info("running jshint...")
 
       val jscontext =  new ContextFactory().enterContext()
       val scope = new Global()
