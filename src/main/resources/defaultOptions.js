@@ -4,7 +4,7 @@ var JSLINT_OPTIONS = {
     "maxerr"        : 100,    // Maximum error before stopping.
 
     // Predefined globals whom JSHint will ignore.
-    "browser"       : false,   // Standard browser globals e.g. `window`, `document`.
+    "browser"       : true,   // Standard browser globals e.g. `window`, `document`.
 
     "node"          : false,
     "rhino"         : false,
