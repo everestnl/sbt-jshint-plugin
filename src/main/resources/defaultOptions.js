@@ -4,7 +4,7 @@ var JSLINT_OPTIONS = {
     "maxerr"        : 100,    // Maximum error before stopping.
 
     // Predefined globals whom JSHint will ignore.
-    "browser"       : true,   // Standard browser globals e.g. `window`, `document`.
+    "browser"       : false,   // Standard browser globals e.g. `window`, `document`.
 
     "node"          : false,
     "rhino"         : false,
@@ -29,12 +29,12 @@ var JSLINT_OPTIONS = {
 
     // ECMAScript 5.
     "es5"           : true,   // Allow ECMAScript 5 syntax.
-    "strict"        : false,  // Require `use strict` pragma  in every file.
+    "strict"        : true,  // Require `use strict` pragma  in every file.
     "globalstrict"  : false,  // Allow global "use strict" (also enables 'strict').
 
     // The Good Parts.
     "asi"           : false,  // Tolerate Automatic Semicolon Insertion (no semicolons).
-    "laxbreak"      : true,   // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
+    "laxbreak"      : false,   // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
     "bitwise"       : true,   // Prohibit bitwise operators (&, |, ^, etc.).
     "boss"          : false,  // Tolerate assignments inside if, for & while. Usually conditions & loops are for comparison, not assignments.
     "curly"         : true,   // Require {} for every new block or scope.
